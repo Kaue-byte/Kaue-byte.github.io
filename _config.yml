@@ -15,8 +15,10 @@
 # in the templates via {{ site.myvariable }}.
 title: "Kauê's blog"
 email: Kaue.cordeiro.abreu@gmail.com
-description: >- # this means to ignore newflines until "baseurl:"
-Computer science student interested in algorithms, data structures, and low-level programming. This blog is where I share projects, experiments, and things I learn along the way.
+description: >-
+  Computer science student interested in algorithms, data structures, and low-level programming. 
+  This blog is where I share projects, experiments, and things I learn along the way.
+
 twitter_username: username
 github_username: Kaue-byte
 minimal_mistakes_skin: midnight
