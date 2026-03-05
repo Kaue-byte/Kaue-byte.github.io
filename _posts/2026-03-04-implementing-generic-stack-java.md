@@ -4,9 +4,7 @@ categories:
   - Blog
   - Java
 tags:
-  - stack
   - data-structures
-  - generics
   - java
 ---
 
