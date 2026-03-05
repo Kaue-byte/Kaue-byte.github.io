@@ -10,12 +10,12 @@ tags:
   - java
 ---
 
-When I was studying data structures in `Java`, one of the first concepts you encounter is the **Stack.
+When I was studying data structures in `Java`, one of the first concepts you encounter is the **Stack**.
 
-Briefly, the `Stack` is a type of data organization, with the aim of saving data fast.
+Briefly, the `Stack` is a type of data organization, **with the aim of saving data fast**.
 
 In the Stack, you can only put new information on the top. Its not possible view what is below if you do not remove the top, like a real stack.
-Basically, you can do some `actions` on a stack, like:
+Basically, you can do some **actions** on a stack, like:
 ```ruby
 push: add new information
 pop: return the top and remove the top information
@@ -25,7 +25,7 @@ peek: look at the top of the stack
 size: return the size of the stack
 clear: clear all data from the stack
 ```
-Before looking at the code, you need to know what a **Generic is.
+Before looking at the code, you need to know what a **Generic** is.
 Generics are a `parameter that receives a data type`.
 ```ruby
 public class Stack<T> {
@@ -40,7 +40,7 @@ element = (T[]) new Object[len];
 ```
 In this line, you create an array of Object, and you say to the system: `"hey, treat this array of Object like a T[]"`.
 
-But this sounds SOOOO strange.
+But this sounds **SOOOO** strange.
 
 An example to better illustrate this.
 ```ruby
@@ -52,7 +52,7 @@ private String[] element;
 element = (String[]) new Object[len];
 }
 ```
-So what is happening?
+**So what is happening?**
 
 An explicit unchecked cast between incompatible array types caused by type erasure.
 
