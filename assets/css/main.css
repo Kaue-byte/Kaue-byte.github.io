@@ -3,8 +3,7 @@
 
 @import "minimal-mistakes";
 
-/* aumentar fonte do conteúdo do post */
+/* diminuir apenas texto do post */
 .page__content {
-  font-size: 10px;
-  line-height: 1.8;
+  font-size: 0.9rem;
 }
