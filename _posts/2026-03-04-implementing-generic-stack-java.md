@@ -82,7 +82,7 @@ public class Stack<T> {
     private static final int STACK_SIZE = 100;
     private T[] element;
     private int top;
-    @SuppressWarnings("unchecked") /Ignore the unchecked warnings/
+    @SuppressWarnings("unchecked") //Ignore the unchecked warnings
     public Stack(int len){
         element = (T[]) new Object[len];
         top =-1;
