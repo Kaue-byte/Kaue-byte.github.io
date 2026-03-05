@@ -1,4 +1,10 @@
+---
+---
+
+@import "minimal-mistakes";
+
+/* aumentar fonte do conteúdo do post */
 .page__content {
-  font-size: 19px;
+  font-size: 10px;
   line-height: 1.8;
 }
