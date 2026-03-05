@@ -1,3 +1,13 @@
+---
+title: "Post: Implementing a Generic Stack in Java"
+categories:
+  - Blog
+  - Java
+tags:
+  - data-structures
+  - java
+---
+
 Implementing a Generic Circular Queue in Java
 
 Continuing my data structure learnings, I stumbled upon a new type of structure: the Queue.
