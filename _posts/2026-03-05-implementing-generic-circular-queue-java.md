@@ -9,14 +9,14 @@ tags:
 
 **Implementing a Generic Circular Queue in Java**
 
-Continuing my data structure learnings, I stumbled upon a new type of structure: ***the Queue**.
+Continuing my data structure learnings, I stumbled upon a new type of structure: **the Queue**.
 A Queue is a type of `data organization`. Basically, it works like a real queue: you can only put new information at the end of the queue. 
 
 That sounds like Stacks, but the Queue can only see/remove from the start of the queue.
 
 This image is showing what I was talking about: you remove from the front (**Dequeue**) and insert from the back (**Enqueue**).
 
-[img]
+![Queue Operations Diagram](/assets/img/Queue.webp)
 
 The Queue has some operations to model our queue:
 ```
@@ -38,13 +38,13 @@ The Queue is normally used for **Asynchronous processes** and **search algorithm
 
 **Asynchronous processes**:
 
-[img]
+![Queue Operations Diagram](/assets/img/Message-Queue-Point-to-Point.jpg)
 
 In this img, all the messages will be stored inside the queue in order of `arrival`.
 
 **Search algorithms**:
 
-[img]
+![Queue Operations Diagram](/assets/img/BFS.png)
 
 This is a **BFS** - Breadth-First Search, which uses a queue. For more information, click here: (https://www.codecademy.com/article/breadth-first-search-bfs-algorithm)
 
