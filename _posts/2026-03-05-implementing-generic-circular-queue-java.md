@@ -1,7 +1,6 @@
 ---
-title: "Post: Implementing a Generic Stack in Java"
+title: "Implementing a Generic Circular Queue in Java"
 categories:
-  - Blog
   - Java
 tags:
   - data-structures
